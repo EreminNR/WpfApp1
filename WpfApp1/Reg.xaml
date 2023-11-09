@@ -1,0 +1,37 @@
+﻿<Window x:Class="WpfApp1.Reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Reg" Height="499.5" Width="400">
+    <Grid>
+        <Grid >
+            <Grid.Background>
+                <SolidColorBrush Color="#FFB5D5CA"></SolidColorBrush>
+            </Grid.Background>
+            <Grid Margin="0,61,0,0" Height="104" VerticalAlignment="Top">
+                <Grid.Background>
+                    <ImageBrush ImageSource="/Source/logo-01.jpg" Stretch="None" />
+
+
+                </Grid.Background>
+            </Grid>
+            <Label Content="Регистрация" HorizontalAlignment="Center" Margin="0,40,0,0" FontSize="18" FontWeight="Bold" Height="42" VerticalAlignment="Top"/>
+            <Grid Margin="0" VerticalAlignment="Center" Height="236" HorizontalAlignment="Center" Width="392"  >
+                <Label Content="Имя:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,70,0,0"/>
+                <Label Content="Логин:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,30,0,0"/>
+                <Label Content="Повторите&#xD;&#xA;пароль:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,30"/>
+                <TextBox x:Name="Login" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap"  Width="219" VerticalAlignment="Top" Margin="144,30,0,0" TextAlignment="Left" FontSize="20"/>
+                <TextBox x:Name="Name" HorizontalAlignment="Left" Height="31" TextWrapping="Wrap"  Width="219" VerticalAlignment="Top" Margin="144,70,0,0" TextAlignment="Left" FontSize="20"/>
+                <Label Content="Пароль:" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="50,0,0,90"/>
+                <PasswordBox x:Name="Password" HorizontalAlignment="Left" Height="31"   Width="219" VerticalAlignment="Bottom" Margin="144,0,0,90"  FontSize="20"/>
+                <PasswordBox x:Name="Password1" HorizontalAlignment="Left" Height="31"  Width="219" VerticalAlignment="Bottom" Margin="144,0,0,40"  FontSize="20"/>
+            </Grid>
+            <Button Content="Зарегестрироваться" HorizontalAlignment="Center" Margin="0,0,0,50" VerticalAlignment="Bottom" Width="189" Height="62" FontSize="18" Background="#FFE0A9AF" Click="Button_Click"/>
+            <TextBlock HorizontalAlignment="Center" Margin="0,0,0,25" TextWrapping="Wrap" Text="Уже есть аккаунт?" VerticalAlignment="Bottom" TextAlignment="Center" FontSize="14" MouseDown="TextBlock_MouseDown"/>
+
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="da0bc6580acc4bb0aecd33396dad7b81" Name="Diagram1">
+        <EntityTypeShape EntityType="SFabricaModel.AppUser" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Cvet" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Furnitura" Width="1.5" PointX="5.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Izdeliya" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Risunok" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Role" Width="1.5" PointX="7.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Sostav" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Tip" Width="1.5" PointX="8" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.Tkani" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SFabricaModel.TkaniIzdeliya" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="SFabricaModel.FK__AppUser__Role__09A971A2" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__TkaniIzde__IdIzd__3B40CD36" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.FK__TkaniIzde__IdTka__3A4CA8FD" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.CvetTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.RisunokTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.SostavTkani" ManuallyRouted="false" />
+        <AssociationConnector Association="SFabricaModel.TipFurnituri" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
